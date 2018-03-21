@@ -237,7 +237,11 @@ if __name__ == '__main__':
 
         while not is_force_termination:
             
+<<<<<<< HEAD
             if execute(cmd) != 0:
+=======
+            if execute(cmd) == 1:
+>>>>>>> sandbox
                 sys.exit(1)
 
             if is_force_termination:
